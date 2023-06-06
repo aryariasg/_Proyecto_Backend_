@@ -1,0 +1,79 @@
+[
+	{
+		"id": 1,
+		"title": "Mayonesa",
+		"description": "Orgánica",
+		"price": 500,
+		"thumbnail": [],
+		"code": 8,
+		"stock": 50,
+		"status": true,
+		"category": "comida"
+	},
+	{
+		"id": 2,
+		"title": "Queso",
+		"description": "Suizo",
+		"price": 600,
+		"thumbnail": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lanacion.com.py%2Fpais%2F2021%2F04%2F16%2Fmodelo-del-queso-suizo-una-de-las-defensas-mas-infalibles-ante-el-covid-19%2F&psig=AOvVaw277Afy1z9d7iIAGOGGZCb1&ust=1678920371736000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIjJu_W_3P0CFQAAAAAdAAAAABAE",
+		"code": 2,
+		"stock": 15,
+		"status": true,
+		"category": "comida"
+	},
+	{
+		"id": 3,
+		"title": "Pan",
+		"description": "Arabe",
+		"price": 750,
+		"thumbnail": [],
+		"code": 3,
+		"stock": 20,
+		"status": true,
+		"category": "comida"
+	},
+	{
+		"id": 4,
+		"title": "Mayonesa",
+		"description": "Orgánica",
+		"price": 430,
+		"thumbnail": [],
+		"code": 4,
+		"stock": 25,
+		"status": true,
+		"category": "comida"
+	},
+	{
+		"id": 5,
+		"title": "Huevo",
+		"description": "De granja",
+		"price": 150,
+		"thumbnail": [],
+		"code": 5,
+		"stock": 50,
+		"status": true,
+		"category": "comida"
+	},
+	{
+		"id": 8,
+		"title": "Mayonesa",
+		"description": "Orgánica",
+		"price": 500,
+		"thumbnail": [],
+		"code": 8,
+		"stock": 50,
+		"status": true,
+		"category": "comida"
+	},
+	{
+		"id": 9,
+		"title": "Huevo",
+		"description": "De granja",
+		"price": 150,
+		"thumbnail": [],
+		"code": 15,
+		"stock": 50,
+		"status": true,
+		"category": "comida"
+	}
+]

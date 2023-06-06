@@ -1,0 +1,21 @@
+{
+	"name": "Segunda Pre Entrega",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon src/app.js"
+	},
+	"keywords": [],
+	"author": "Arianny Arias",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2",
+		"express-handlebars": "^7.0.2",
+		"mongoose": "^7.0.3",
+		"mongoose-paginate-v2": "^1.7.1",
+		"nodemon": "^2.0.21",
+		"socket.io": "^4.6.1"
+	}
+}

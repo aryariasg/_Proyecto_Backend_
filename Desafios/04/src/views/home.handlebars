@@ -1,0 +1,24 @@
+{{! script para el cliente }}
+<script src="/socket.io/socket.io.js"></script>
+{{! todas las funconalidades que el cliente necesita para trabajar con socket.io }}
+<script src="/js/index.js"></script>
+
+	<h2>Products</h2>
+{{#if products.length}}
+	<ul>
+		{{#each products}}
+			<li>Id: {{id}}</li>
+			<li>Product: {{title}}</li>
+			<li>Description: {{description}}</li>
+			<li>Price: ${{price}}</li>
+			<li>Thumbnail: {{thumbnail}}</li>
+			<li>Code: {{code}}</li>
+			<li>Stock: {{stock}}</li>
+			<li>Status: {{status}}</li>
+			<li>Category: {{category}}</li>
+			<hr />
+		{{/each}}
+	</ul>
+{{else}}
+	<h2>No products</h2>
+{{/if}}
