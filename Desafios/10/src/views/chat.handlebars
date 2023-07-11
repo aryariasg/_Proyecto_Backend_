@@ -1,0 +1,29 @@
+<h1>BIENVENIDO AL CHAT CODERHOUSE</h1>
+
+<h2 id='usuario'></h2>
+
+<form id='formulario'>
+	<input
+		type='text'
+		name='mensaje'
+		id='message'
+		placeholder='Ingresa un mensaje'
+	/>
+	<input type='submit' value='enviar' />
+</form>
+
+<p id='chat'></p>
+
+{{! Sweet Alert 2 }}
+<script
+	src='https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js'
+></script>
+
+{{! Toastify }}
+<script
+	type='text/javascript'
+	src='https://cdn.jsdelivr.net/npm/toastify-js'
+></script>
+
+<script src='/socket.io/socket.io.js'></script>
+<script src='/js/chat.js'></script>
